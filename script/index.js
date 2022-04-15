@@ -28,5 +28,5 @@ let fetchUser = () => {
         document.addEventListener('DOMContentLoaded', fetchUser)
 
         // THE BUTTON REALOADING DEFFIRENT USERS
-        let reloadBtn = document.getElementById('btn')
+        const reloadBtn = document.getElementById('btn')
         reloadBtn.addEventListener('click', fetchUser)
